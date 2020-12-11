@@ -28,5 +28,46 @@ header {
 }
 
 section {
+    padding: 20px;
+    background-image: url('../images/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form-container {
+    padding: 20px;
+    max-width: 230px;
+    background-color: #ffffffbb;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.margin-bootom {
+    margin-bottom: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
     color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
 }
