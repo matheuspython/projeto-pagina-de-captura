@@ -71,3 +71,49 @@ select {
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }
+
+.picture {
+    width: 160px;
+}
+
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p,
+.description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 425px) {
+    .form-container {
+        padding: 40px 20;
+        max-width: 90%;
+        background-color: #ffffffbb;
+        float: none;
+        margin: 0 auto;
+    }
+    .description {
+        text-align: justify;
+        display: inline;
+        max-width: 90%;
+        margin-left: 40px;
+    }
+}
